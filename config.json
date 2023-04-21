@@ -1,0 +1,725 @@
+{
+  "sysData": {
+    "M0": {
+      "UIDevice": "M0",
+      "present": 0,
+      "presentDevices": {
+        "M0": 0,
+        "M1": 0,
+        "M2": 0,
+        "M3": 0,
+        "M4": 0,
+        "M5": 0,
+        "M6": 0,
+        "M7": 0
+      },
+      "Version": {
+        "value": "Turbidostat V3.0"
+      },
+      "DeviceID": "",
+      "time": {
+        "record": []
+      },
+      "LEDA": {
+        "WL": "395",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDB": {
+        "WL": "457",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDC": {
+        "WL": "500",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDD": {
+        "WL": "523",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDE": {
+        "WL": "595",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDF": {
+        "WL": "623",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LEDG": {
+        "WL": "6500K",
+        "default": 0.1,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "LASER650": {
+        "name": "LASER650",
+        "default": 0.5,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "UV": {
+        "WL": "UV",
+        "default": 0.5,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "Heat": {
+        "default": 0,
+        "target": 0,
+        "max": 1,
+        "min": 0,
+        "ON": 0,
+        "record": []
+      },
+      "Thermostat": {
+        "default": 37,
+        "target": 0,
+        "max": 50,
+        "min": 0,
+        "ON": 0,
+        "record": [],
+        "cycleTime": 30,
+        "Integral": 0,
+        "last": -1
+      },
+      "Experiment": {
+        "indicator": "USR0",
+        "startTime": "Waiting",
+        "startTimeRaw": 0,
+        "ON": 0,
+        "cycles": 0,
+        "cycleTime": 60,
+        "threadCount": 0
+      },
+      "Terminal": {
+        "text": ""
+      },
+      "AS7341": {
+        "spectrum": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0,
+          "DARK": 0,
+          "ExtGPIO": 0,
+          "ExtINT": 0,
+          "FLICKER": 0
+        },
+        "channels": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0,
+          "DARK": 0,
+          "ExtGPIO": 0,
+          "ExtINT": 0,
+          "FLICKER": 0
+        },
+        "current": {
+          "ADC0": 0,
+          "ADC1": 0,
+          "ADC2": 0,
+          "ADC3": 0,
+          "ADC4": 0,
+          "ADC5": 0
+        }
+      },
+      "ThermometerInternal": {
+        "current": 0,
+        "record": []
+      },
+      "ThermometerExternal": {
+        "current": 0,
+        "record": []
+      },
+      "ThermometerIR": {
+        "current": 0,
+        "record": []
+      },
+      "OD": {
+        "current": 0,
+        "target": 0.5,
+        "default": 0.5,
+        "max": 10,
+        "min": 0,
+        "record": [],
+        "targetrecord": [],
+        "Measuring": 0,
+        "ON": 0,
+        "Integral": 0,
+        "Integral2": 0,
+        "device": "LASER650"
+      },
+      "OD0": {
+        "target": 0,
+        "raw": 0,
+        "max": 100000,
+        "min": 0,
+        "LASERb": 1.833,
+        "LASERa": 0.226,
+        "LEDFa": 0.673,
+        "LEDAa": 7
+      },
+      "Chemostat": {
+        "ON": 0,
+        "p1": 0,
+        "p2": 0.1
+      },
+      "Zigzag": {
+        "ON": 0,
+        "Zig": 0.04,
+        "target": 0,
+        "SwitchPoint": 0
+      },
+      "GrowthRate": {
+        "current": 0,
+        "record": [],
+        "default": 2
+      },
+      "Volume": {
+        "target": 20,
+        "max": 50,
+        "min": 0,
+        "ON": 0
+      },
+      "Pump1": {
+        "target": 0,
+        "default": 0,
+        "max": 1,
+        "min": -1,
+        "direction": 1,
+        "ON": 0,
+        "record": [],
+        "thread": 0
+      },
+      "Pump2": {
+        "target": 0,
+        "default": 0,
+        "max": 1,
+        "min": -1,
+        "direction": 1,
+        "ON": 0,
+        "record": [],
+        "thread": 0
+      },
+      "Pump3": {
+        "target": 0,
+        "default": 0,
+        "max": 1,
+        "min": -1,
+        "direction": 1,
+        "ON": 0,
+        "record": [],
+        "thread": 0
+      },
+      "Pump4": {
+        "target": 0,
+        "default": 0,
+        "max": 1,
+        "min": -1,
+        "direction": 1,
+        "ON": 0,
+        "record": [],
+        "thread": 0
+      },
+      "Stir": {
+        "target": 0,
+        "default": 0.5,
+        "max": 1,
+        "min": 0,
+        "ON": 0
+      },
+      "Light": {
+        "target": 0,
+        "default": 0.5,
+        "max": 1,
+        "min": 0,
+        "ON": 0,
+        "Excite": "LEDD",
+        "record": []
+      },
+      "Custom": {
+        "Status": 0,
+        "default": 0,
+        "Program": "C1",
+        "ON": 0,
+        "param1": 0,
+        "param2": 0,
+        "param3": 0,
+        "record": []
+      },
+      "FP1": {
+        "ON": 0,
+        "LED": 0,
+        "BaseBand": 0,
+        "Emit11Band": 0,
+        "Emit2Band": 0,
+        "Base": 0,
+        "Emit11": 0,
+        "Emit2": 0,
+        "BaseRecord": 0,
+        "Emit1Record": 0,
+        "Emit2Record": 0,
+        "Gain": 0
+      },
+      "FP2": {
+        "ON": 0,
+        "LED": 0,
+        "BaseBand": 0,
+        "Emit11Band": 0,
+        "Emit2Band": 0,
+        "Base": 0,
+        "Emit11": 0,
+        "Emit2": 0,
+        "BaseRecord": 0,
+        "Emit1Record": 0,
+        "Emit2Record": 0,
+        "Gain": 0
+      },
+      "FP3": {
+        "ON": 0,
+        "LED": 0,
+        "BaseBand": 0,
+        "Emit11Band": 0,
+        "Emit2Band": 0,
+        "Base": 0,
+        "Emit11": 0,
+        "Emit2": 0,
+        "BaseRecord": 0,
+        "Emit1Record": 0,
+        "Emit2Record": 0,
+        "Gain": 0
+      },
+      "biofilm": {
+        "LEDA": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDB": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDC": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDD": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDE": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDF": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LEDG": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        },
+        "LASER650": {
+          "nm410": 0,
+          "nm440": 0,
+          "nm470": 0,
+          "nm510": 0,
+          "nm550": 0,
+          "nm583": 0,
+          "nm620": 0,
+          "nm670": 0,
+          "CLEAR": 0,
+          "NIR": 0
+        }
+      }
+    }
+  },
+  "sysDevices": {
+    "M0": {
+      "AS7341": {
+        "device": 0
+      },
+      "ThermometerInternal": {
+        "device": 0
+      },
+      "ThermometerExternal": {
+        "device": 0
+      },
+      "ThermometerIR": {
+        "device": 0,
+        "address": 0
+      },
+      "DAC": {
+        "device": 0
+      },
+      "Pumps": {
+        "device": 0,
+        "startup": 0,
+        "frequency": 0
+      },
+      "PWM": {
+        "device": 0,
+        "startup": 0,
+        "frequency": 0
+      },
+      "Pump1": {
+        "thread": 0,
+        "threadCount": 0,
+        "active": 0
+      },
+      "Pump2": {
+        "thread": 0,
+        "threadCount": 0,
+        "active": 0
+      },
+      "Pump3": {
+        "thread": 0,
+        "threadCount": 0,
+        "active": 0
+      },
+      "Pump4": {
+        "thread": 0,
+        "threadCount": 0,
+        "active": 0
+      },
+      "Experiment": {
+        "thread": 0
+      },
+      "Thermostat": {
+        "thread": 0,
+        "threadCount": 0
+      }
+    }
+  },
+  "sysItems": {
+    "DAC": {
+      "LEDA": "00000100",
+      "LEDB": "00000000",
+      "LEDC": "00000110",
+      "LEDD": "00000001",
+      "LEDE": "00000101",
+      "LEDF": "00000011",
+      "LEDG": "00000010",
+      "LASER650": "00000111"
+    },
+    "Multiplexer": {
+      "device": 0,
+      "M0": "00000001",
+      "M1": "00000010",
+      "M2": "00000100",
+      "M3": "00001000",
+      "M4": "00010000",
+      "M5": "00100000",
+      "M6": "01000000",
+      "M7": "10000000"
+    },
+    "UIDevice": "M0",
+    "Watchdog": {
+      "pin": "P8_11",
+      "thread": 0,
+      "ON": 1
+    },
+    "FailCount": 0,
+    "All": {
+      "ONL": "0xFA",
+      "ONH": "0xFB",
+      "OFFL": "0xFC",
+      "OFFH": "0xFD"
+    },
+    "Stir": {
+      "ONL": "0x06",
+      "ONH": "0x07",
+      "OFFL": "0x08",
+      "OFFH": "0x09"
+    },
+    "Heat": {
+      "ONL": "0x3E",
+      "ONH": "0x3F",
+      "OFFL": "0x40",
+      "OFFH": "0x41"
+    },
+    "UV": {
+      "ONL": "0x42",
+      "ONH": "0x43",
+      "OFFL": "0x44",
+      "OFFH": "0x45"
+    },
+    "LEDA": {
+      "ONL": "0x0E",
+      "ONH": "0x0F",
+      "OFFL": "0x10",
+      "OFFH": "0x11"
+    },
+    "LEDB": {
+      "ONL": "0x16",
+      "ONH": "0x17",
+      "OFFL": "0x18",
+      "OFFH": "0x19"
+    },
+    "LEDC": {
+      "ONL": "0x0A",
+      "ONH": "0x0B",
+      "OFFL": "0x0C",
+      "OFFH": "0x0D"
+    },
+    "LEDD": {
+      "ONL": "0x1A",
+      "ONH": "0x1B",
+      "OFFL": "0x1C",
+      "OFFH": "0x1D"
+    },
+    "LEDE": {
+      "ONL": "0x22",
+      "ONH": "0x23",
+      "OFFL": "0x24",
+      "OFFH": "0x25"
+    },
+    "LEDF": {
+      "ONL": "0x1E",
+      "ONH": "0x1F",
+      "OFFL": "0x20",
+      "OFFH": "0x21"
+    },
+    "LEDG": {
+      "ONL": "0x12",
+      "ONH": "0x13",
+      "OFFL": "0x14",
+      "OFFH": "0x15"
+    },
+    "Pump1": {
+      "In1": {
+        "ONL": "0x06",
+        "ONH": "0x07",
+        "OFFL": "0x08",
+        "OFFH": "0x09"
+      },
+      "In2": {
+        "ONL": "0x0A",
+        "ONH": "0x0B",
+        "OFFL": "0x0C",
+        "OFFH": "0x0D"
+      }
+    },
+    "Pump2": {
+      "In1": {
+        "ONL": "0x0E",
+        "ONH": "0x0F",
+        "OFFL": "0x10",
+        "OFFH": "0x11"
+      },
+      "In2": {
+        "ONL": "0x12",
+        "ONH": "0x13",
+        "OFFL": "0x14",
+        "OFFH": "0x15"
+      }
+    },
+    "Pump3": {
+      "In1": {
+        "ONL": "0x16",
+        "ONH": "0x17",
+        "OFFL": "0x18",
+        "OFFH": "0x19"
+      },
+      "In2": {
+        "ONL": "0x1A",
+        "ONH": "0x1B",
+        "OFFL": "0x1C",
+        "OFFH": "0x1D"
+      }
+    },
+    "Pump4": {
+      "In1": {
+        "ONL": "0x1E",
+        "ONH": "0x1F",
+        "OFFL": "0x20",
+        "OFFH": "0x21"
+      },
+      "In2": {
+        "ONL": "0x22",
+        "ONH": "0x23",
+        "OFFL": "0x24",
+        "OFFH": "0x25"
+      }
+    },
+    "AS7341": {
+      "0x00": {
+        "A": "nm470",
+        "B": "U"
+      },
+      "0x01": {
+        "A": "U",
+        "B": "nm410"
+      },
+      "0x02": {
+        "A": "U",
+        "B": "U"
+      },
+      "0x03": {
+        "A": "nm670",
+        "B": "U"
+      },
+      "0x04": {
+        "A": "U",
+        "B": "nm583"
+      },
+      "0x05": {
+        "A": "nm510",
+        "B": "nm440"
+      },
+      "0x06": {
+        "A": "nm550",
+        "B": "U"
+      },
+      "0x07": {
+        "A": "U",
+        "B": "nm620"
+      },
+      "0x08": {
+        "A": "CLEAR",
+        "B": "U"
+      },
+      "0x09": {
+        "A": "nm550",
+        "B": "U"
+      },
+      "0x0A": {
+        "A": "U",
+        "B": "nm620"
+      },
+      "0x0B": {
+        "A": "U",
+        "B": "U"
+      },
+      "0x0C": {
+        "A": "nm440",
+        "B": "U"
+      },
+      "0x0D": {
+        "A": "U",
+        "B": "nm510"
+      },
+      "0x0E": {
+        "A": "nm583",
+        "B": "nm670"
+      },
+      "0x0F": {
+        "A": "nm470",
+        "B": "U"
+      },
+      "0x10": {
+        "A": "ExtGPIO",
+        "B": "nm410"
+      },
+      "0x11": {
+        "A": "CLEAR",
+        "B": "ExtINT"
+      },
+      "0x12": {
+        "A": "DARK",
+        "B": "U"
+      },
+      "0x13": {
+        "A": "FLICKER",
+        "B": "NIR"
+      }
+    }
+  }
+}
